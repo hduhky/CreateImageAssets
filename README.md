@@ -1,0 +1,3 @@
+# CreateImageAssets
+
+使用shell脚本搭配Automator，快速创建ImageAssets目录
