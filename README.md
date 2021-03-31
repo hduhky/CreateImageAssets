@@ -18,6 +18,7 @@
 
 2. ##### 安装完成后，操作说明如下
 
+![图像](https://user-images.githubusercontent.com/12041872/113079635-fd7a2900-9207-11eb-88a3-d1108d9ec0bf.gif)
 
 https://user-images.githubusercontent.com/12041872/113079218-3534a100-9207-11eb-8d62-2819b658667c.mov
 
