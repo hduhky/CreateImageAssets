@@ -5,6 +5,7 @@ Cyan='\033[0;36m'
 Default='\033[0;m'
 
 imageFilePath="$1"
+jsonFilePath=""
 imageNameArray=""
 prefix=""
 
@@ -20,6 +21,11 @@ getImageFilePath() {
         echo "Image File Path Invalid!"
         exit
     fi
+}
+
+getJsonFilePath() {
+    cd "../Files"
+    jsonFilePath="$(pwd)/Contents.json"
 }
 
 getImageNameArray() {
@@ -78,14 +84,14 @@ checkPrefix
 
 getImageFilePath
 
+getJsonFilePath
+
 cd $imageFilePath
 
 getImageNameArray
 
 targetFilePath="${imageFilePath}/assets"
 mkdir -p $targetFilePath
-
-jsonFilePath="/Users/smb-lsp/Desktop/CreateImageAssets/Tools/Files/Contents.json"
 
 echo "creating assets..."
 createAssets
